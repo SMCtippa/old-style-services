@@ -67,21 +67,21 @@
         fill="none" stroke="#2f6faa" stroke-width="5" stroke-linejoin="round"/>
 
   <!-- Tree trunk -->
-  <path d="M200 175 L184 217 L216 217 Z" fill="#c1502e"/>
-  <path d="M200 175 L165 195 L176 198 Z" fill="#c1502e"/>
-  <path d="M200 175 L235 195 L224 198 Z" fill="#c1502e"/>
+  <path d="M195 168 L183 198 L207 198 Z" fill="#c1502e"/>
+  <path d="M195 168 L172 182 L180 184 Z" fill="#c1502e"/>
+  <path d="M195 168 L218 182 L210 184 Z" fill="#c1502e"/>
 
   <!-- Tree foliage -->
-  <circle cx="200" cy="133" r="27" fill="#2f6faa"/>
-  <circle cx="173" cy="149" r="20" fill="#2f6faa"/>
-  <circle cx="227" cy="149" r="20" fill="#2f6faa"/>
-  <circle cx="200" cy="104" r="20" fill="#2f6faa"/>
+  <circle cx="195" cy="146" r="16" fill="#2f6faa"/>
+  <circle cx="176" cy="158" r="12" fill="#2f6faa"/>
+  <circle cx="214" cy="158" r="12" fill="#2f6faa"/>
+  <circle cx="195" cy="128" r="12" fill="#2f6faa"/>
 
   <!-- Swoosh under tree -->
-  <path d="M130 225 Q200 205 270 225" fill="none" stroke="#c1502e" stroke-width="8" stroke-linecap="round"/>
-  <path d="M124 237 Q200 219 276 237" fill="none" stroke="#2f6faa" stroke-width="8" stroke-linecap="round"/>
+  <path d="M140 208 Q195 193 250 208" fill="none" stroke="#c1502e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M136 218 Q195 205 254 218" fill="none" stroke="#2f6faa" stroke-width="6" stroke-linecap="round"/>
 
   <!-- Wordmark -->
-  <text x="200" y="270" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="34" fill="#2f6faa">Old Style</text>
-  <text x="200" y="291" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="12" letter-spacing="2" fill="#c1502e">SERVICES LLC</text>
+  <text x="195" y="243" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="26" fill="#2f6faa">Old Style</text>
+  <text x="195" y="258" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="9" letter-spacing="1.5" fill="#c1502e">SERVICES LLC</text>
 </svg>
