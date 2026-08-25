@@ -40,7 +40,13 @@ baked into the graphic, the separate `.wordmark-text` HTML span was dropped from
 (previously used for the icon-only version) and `.logo-mark` was sized up (46px → 78px header,
 34px → 58px footer) so the text stays legible. The `--brand`/`--brand-dark` palette in `styles.css`
 was updated to match this blue rather than the green originally guessed before the real logo was
-shared. To use their exact original artwork instead:
+shared.
+
+The Ohio outline itself is traced from real state boundary geometry (pulled the Ohio `<path>` from
+Wikimedia Commons' `Map_of_USA_OH.svg`, https://commons.wikimedia.org/wiki/File:Map_of_USA_OH.svg,
+and rescaled its ~63 points into the logo's 400×400 viewBox) rather than hand-drawn — an earlier
+freehand attempt at the outline didn't actually read as Ohio. To use their exact original artwork
+instead:
 
 1. Get the real file from Ramon (PNG or vector) and save it as `assets/logo.png` (or re-export as
    `assets/logo.svg`).
