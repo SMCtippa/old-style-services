@@ -30,9 +30,22 @@ listed across Houzz, BBB, and directory profiles — worth confirming the exact 
 
 ## Logo
 
-No real logo was found via search (not on their Facebook page, BBB, or directory listings), so
-`assets/logo.svg` is a simple hand-drawn placeholder mark (a stylized pine tree in a circle) in the
-brand green. Swap in their real logo if Kyle gets one from Ramon directly.
+Kyle pasted their real Facebook logo in chat (blue Ohio-state outline with a blue tree, a red/blue
+swoosh, and the "Old Style Services LLC" wordmark baked into the mark itself). It only came through
+as an image, not a file (checked `~/Downloads` and `~/Desktop` for a matching saved image first —
+nothing matched, only an unrelated logo from a different prospect build), so `assets/logo.svg` is a
+hand-built recreation of the full lockup — outline, tree, swoosh, and "Old Style" / "SERVICES LLC"
+text — in their real blue (`#2f6faa`) and burnt-orange-red (`#c1502e`). Because the wordmark is
+baked into the graphic, the separate `.wordmark-text` HTML span was dropped from the header/footer
+(previously used for the icon-only version) and `.logo-mark` was sized up (46px → 78px header,
+34px → 58px footer) so the text stays legible. The `--brand`/`--brand-dark` palette in `styles.css`
+was updated to match this blue rather than the green originally guessed before the real logo was
+shared. To use their exact original artwork instead:
+
+1. Get the real file from Ramon (PNG or vector) and save it as `assets/logo.png` (or re-export as
+   `assets/logo.svg`).
+2. Update the `src="assets/logo.svg"` references in `index.html` (header, footer, and the
+   `<link rel="icon">` favicon tag) to point at the new file.
 
 ## Contact form
 
